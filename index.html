@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Menu de navegacion</title>
+</head>
+<body>
+    <nav class="menu" id="menu">
+        <div class="contenedor contenedor-botones-menu">
+            <button id="btn-menu-barras" class="btn-menu-barras"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+            <button id="btn-menu-cerrar" class="btn-menu-cerrar"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
+        </div>
+
+        <div class="contenedor contenedor-enlaces-nav">
+            <div class="btn-departamentos" id="btn-departamentos">
+                <p>Todos los <span>Departamentos</span> </p>
+                <i><svg xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></i>
+            </div>
+            <div class="enlaces">
+                <a href="#">Cuenta</a>
+                <a href="#">Promociones</a>
+                <a href="#">Mesa de Regalos</a>
+                <a href="#">Ayuda</a>              
+            </div>
+
+        </div>
+
+        <div class="contenedor contenedor-grid">
+            <div class="grid" id="grid">
+                <div class="categorias">
+                    <button class="btn-regresar"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg>  Regresar</button>
+                    <h3 class="subtitulo">Categorias</h3>
+                    <a href="#" data-categoria="tecnologia-y-computadoras">Tecnologia y Computadoras <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+                    <a href="#" data-categoria="libros">Libros <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+                    <a href="#" data-categoria="ropa-y-accesorios">Ropa y Accesorios <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+                    <a href="#" data-categoria="hogar-y-cocina">Hogar y Cocina <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+                    <a href="#" data-categoria="juegos-y-juguetes">Juegos y Juguetes <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+                    <a href="#" data-categoria="salud-y-belleza">Salud y Belleza <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+                    <a href="#" data-categoria="alimentos-y-bebidas">Alimentos y Bebidas <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+                </div>
+               <div class="contenedor-subcategorias">
+                 <div class="subcategoria activo" data-categoria="tecnologia-y-computadoras">
+                     <div class="enlaces-subcategoria">
+                         <button class="btn-regresar"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg> Regresar</button>
+                         <h3 class="subtitulo">Tecnologia y Computadoras</h3>
+                         <a href="#">Laptops</a>
+                         <a href="#">Tablets</a>
+                         <a href="#">Computadoras de escritorio</a>
+                         <a href="#">Monitores</a>
+                         <a href="#">Componentes</a>
+                     </div>
+
+                     <div class="banner-subcategoria">
+                         <a href="#">
+                             <img src="img/tecnologia-banner-1.png" alt="">
+                         </a>
+                     </div>
+                     
+                     <div class="galeria-subcategoria">
+                         <a href="#">
+                             <img src="img/tecnologia-galeria-1.png" alt="">
+                         </a>
+                         <a href="#">
+                            <img src="img/tecnologia-galeria-2.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/tecnologia-galeria-3.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="img/tecnologia-galeria-4.png" alt="">
+                        </a>
+                     </div>
+                 </div>
+
+                 <div class="subcategoria" data-categoria="libros">
+                    <div class="enlaces-subcategoria">
+                        <button class="btn-regresar"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg> Regresar</button>
+                        <h3 class="subtitulo">Libros</h3>
+                        <a href="#">Terror</a>
+                        <a href="#">Ciencia Ficcion</a>
+                        <a href="#">Novelas</a>
+                        <a href="#">Romance</a>                       
+                    </div>
+                    <div class="banner-subcategoria">
+                        <a href="#">
+                            <img src="img/libros-banner-1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                        <a href="#">
+                            <img src="img/libros-galeria-1.png" alt="">
+                        </a>
+                        <a href="#">
+                           <img src="img/libros-galeria-2.png" alt="">
+                       </a>
+                       <a href="#">
+                           <img src="img/libros-galeria-3.png" alt="">
+                       </a>
+                       <a href="#">
+                           <img src="img/libros-galeria-4.png" alt="">
+                       </a>
+                    </div>
+                </div>
+
+                <div class="subcategoria" data-categoria="ropa-y-accesorios">
+                    <div class="enlaces-subcategoria">
+                        <button class="btn-regresar"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg> Regresar</button>
+                        <h3 class="subtitulo">Ropa y Accesorios</h3>
+                        <a href="#">Camisas</a>
+                        <a href="#">Pantalones</a>
+                        <a href="#">Zapatos</a>
+                        <a href="#">Relojes</a>
+                        <a href="#">Gorros</a>
+                    </div>
+                    <div class="banner-subcategoria">
+                        <a href="#">
+                            <img src="img/ropa-banner-1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                        <a href="#">
+                            <img src="img/ropa-galeria-1.png" alt="">
+                        </a>
+                        <a href="#">
+                           <img src="img/ropa-galeria-2.png" alt="">
+                       </a>
+                       <a href="#">
+                           <img src="img/ropa-galeria-3.png" alt="">
+                       </a>
+                       <a href="#">
+                           <img src="img/ropa-galeria-4.png" alt="">
+                       </a>
+                    </div>
+                </div>
+
+                <div class="subcategoria" data-categoria="hogar-y-cocina">
+                    <div class="enlaces-subcategoria">
+                        <button class="btn-regresar"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg> Regresar</button>
+                        <h3 class="subtitulo">Hogar y Cocina</h3>
+                        <a href="#">Platos</a>
+                        <a href="#">Cubiertos</a>
+                        <a href="#">Vasos</a>
+                        <a href="#">Muebles</a>
+                        <a href="#">Mesas</a>
+                    </div>
+                    <div class="banner-subcategoria">
+                        <a href="#">
+                            <img src="img/hogar-banner-1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                        <a href="#">
+                            <img src="img/hogar-galeria-1.png" alt="">
+                        </a>
+                        <a href="#">
+                           <img src="img/hogar-galeria-2.png" alt="">
+                       </a>
+                       <a href="#">
+                           <img src="img/hogar-galeria-3.png" alt="">
+                       </a>
+                       <a href="#">
+                           <img src="img/hogar-galeria-4.png" alt="">
+                       </a>
+                    </div>
+                </div>
+
+                <div class="subcategoria" data-categoria="juegos-y-juguetes">
+                    <div class="enlaces-subcategoria">
+                        <button class="btn-regresar"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg> Regresar</button>
+                        <h3 class="subtitulo">Juegos y Juguetes</h3>
+                        <a href="#">PS5</a>
+                        <a href="#">XBOX</a>
+                        <a href="#">GTA 5</a>
+                        <a href="#">Fornite</a>
+                        <a href="#">Call Of Duty</a>
+                    </div>
+                    <div class="banner-subcategoria">
+                        <a href="#">
+                            <img src="img/juegos-banner-1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                        <a href="#">
+                            <img src="img/juegos-galeria-1.png" alt="">
+                        </a>
+                        <a href="#">
+                           <img src="img/juegos-galeria-2.png" alt="">
+                       </a>
+                       <a href="#">
+                           <img src="img/juegos-galeria-3.png" alt="">
+                       </a>
+                       <a href="#">
+                           <img src="img/juegos-galeria-4.png" alt="">
+                       </a>
+                    </div>
+                </div>
+
+                <div class="subcategoria" data-categoria="salud-y-belleza">
+                    <div class="enlaces-subcategoria">
+                        <button class="btn-regresar"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg> Regresar</button>
+                        <h3 class="subtitulo">Salud y Belleza</h3>
+                        <a href="#">Alcohol anticeptico</a>
+                        <a href="#">Maquillaje</a>
+                        <a href="#">Labial</a>
+                        <a href="#">Shampos</a>
+                        <a href="#">Cremas</a>
+                    </div>
+                    <div class="banner-subcategoria">
+                        <a href="#">
+                            <img src="img/belleza-banner-1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                        <a href="#">
+                            <img src="img/belleza-galeria-1.png" alt="">
+                        </a>
+                        <a href="#">
+                           <img src="img/belleza-galeria-2.png" alt="">
+                       </a>
+                       <a href="#">
+                           <img src="img/belleza-galeria-3.png" alt="">
+                       </a>
+                       <a href="#">
+                           <img src="img/belleza-galeria-4.png" alt="">
+                       </a>
+                    </div>
+                </div>
+                
+                <div class="subcategoria" data-categoria="alimentos-y-bebidas">
+                    <div class="enlaces-subcategoria">
+                        <button class="btn-regresar"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg> Regresar</button>
+                        <h3 class="subtitulo">Alimentos y Bebidas</h3>
+                        <a href="#">Verduras</a>
+                        <a href="#">Granos</a>
+                        <a href="#">Frutas</a>
+                        <a href="#">Viveres</a>
+                        <a href="#">Refrescos</a>
+                    </div>
+                    <div class="banner-subcategoria">
+                        <a href="#">
+                            <img src="img/comida-banner-1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="galeria-subcategoria">
+                        <a href="#">
+                            <img src="img/comida-galeria-1.png" alt="">
+                        </a>
+                        <a href="#">
+                           <img src="img/comida-galeria-2.png" alt="">
+                       </a>
+                       <a href="#">
+                           <img src="img/comida-galeria-3.png" alt="">
+                       </a>
+                       <a href="#">
+                           <img src="img/comida-galeria-4.png" alt="">
+                       </a>
+                    </div>
+                </div>
+
+               </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="contenedor">
+        <article></article>
+    </main>   
+    <script src="main.js"></script>
+</body>
+</html>
+
